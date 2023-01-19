@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("../img/banner01.png");
+  background-color: #cccccc;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 110vh;
+}
+.top {
+  width: 100%;
+  height: 200px;
+  font-family: Heiti TC;
+  line-height: 200px;
+  font-size: 48px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.title {
+  padding: 0 420px 0 460px;
+}
+.logo {
+  width: 5%;
+  padding: 0 0 0 60px;
+  margin: auto 0;
+  cursor: pointer;
+}
+
+.logo:hover {
+  opacity: 30%;
+}
+
+.shoppingcart {
+  width: 3.8%;
+  padding: 0 0;
+  margin: auto 0;
+  cursor: pointer;
+}
+.shoppingcart:hover {
+  opacity: 30%;
+}
+
+.account {
+  width: 3%;
+  padding: 0 40px 0 20px;
+  margin: auto 0;
+  cursor: pointer;
+}
+.account:hover {
+  opacity: 30%;
+}
+.login {
+  width: 900px;
+  height: 800px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  border: 1px #000000 solid;
+  border-radius: 30px;
+}
+
+.top-tips {
+  width: 100%;
+  height: 70px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 70px;
+  font-family: Heiti TC;
+  margin: 15px 0 25px 0;
+}
+.other-login {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  line-height: 100px;
+}
+.fb {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.gmail {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.other-login01 {
+  width: 260px;
+  height: 50px;
+  border-radius: 100px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 15px;
+  color: #ececec;
+  background-color: #3b5999;
+  cursor: pointer;
+  margin: auto 30px;
+  cursor: pointer;
+}
+.other-login01:hover {
+  background-color: #5f80d4;
+  height: 55px;
+}
+.other-login02:hover {
+  background-color: #ebebeb;
+  height: 55px;
+  border: 1px #d5d5d5 solid;
+}
+.other-login01 img {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  padding: 5px;
+}
+.other-login02 {
+  width: 260px;
+  height: 50px;
+  border-radius: 100px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 15px;
+  color: #000000;
+  background-color: #ffffff;
+  cursor: pointer;
+  border: 1px #000000 solid;
+  margin: auto 30px;
+  cursor: pointer;
+}
+.other-login02 img {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  padding: 5px;
+}
+.line-wrapper {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+.line-wrapper .line {
+  display: inline-block;
+  width: 300px;
+  border-top: 2px solid #e2e2e2;
+}
+.line-wrapper .txt {
+  color: #c7c7c7;
+  vertical-align: middle;
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.login-form {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+}
+.text-tips {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+  line-height: 70px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.user-form input {
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid;
+  margin: 10px auto;
+}
+.user-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  background-color: #ffffff;
+  justify-content: space-aroundr;
+}
+.user-form input::placeholder {
+  padding-left: 1em;
+}
+.address-content {
+  width: 400px;
+  height: 80px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+select {
+  border: 1px solid #c9c9c9;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  height: 28px;
+  line-height: 28px;
+  padding: 4px 16px;
+  font-size: 14px;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+}
+.address {
+  padding: 0 0 10px 0;
+}
+
+.btn01 {
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 30px;
+  border: solid;
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn button {
+  margin: 0 auto;
+}
+.btn01:hover {
+  background-color: #b6b6b6;
+  height: 55px;
+}
+.btn-content {
+  width: 400px;
+  height: 150px;
+  margin: 20px auto;
+  background-color: #ffffff;
+}
+.login-account {
+  margin: 10px auto;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.loginaccount:hover {
+  color: #c2c2c2;
+}
+.btn-button {
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+}
