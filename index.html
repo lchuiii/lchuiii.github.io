@@ -1,113 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>10810605</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
-</head>
-</head>
-<body>
-<div>
-    <div class="top">
-      <img src="./img/logo.png" alt="" class="logo">
-      <p class="title">Pattern Material Store</p>
-      <img src="./img/shoppingcart.png" alt="" class="shoppingcart">
-      <img src="./img/account.png" alt="" class="account">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/all.css" type="text/css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="hd-left">
+        <div class="left-img">
+          <a href="./index.html"><img  src="./img/logo.png" alt="" /></div></a>
+        <div class="left-search">
+          <input class="search-input" type="text" placeholder="搜尋商品">
+          <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+      <div class="hd-right">
+        <div class="hd-login"><a href="./index02.html"><i class="fa-solid fa-user"></i>登入/註冊</a></div>
+        <div class="hd-cart"><a href="./index.html"><i class="fa-solid fa-cart-shopping"></i></i>購物車</a></div>
+      </div>
     </div>
-    <div class="login">
-        <div class="login-wrapper">
-           <div>
-             <img src="./img/music-player.png" alt="" class="login-img01" />
-             <img src="./img/gray_circle.png" alt="" class="login-img02" />
+    <div class="header-logo">
+      <a href="./index.html"><img src="./img/head_logo_工作區域 1.png" alt=""></a>
+    </div>
+    <div class="nav">
+      <ul class="nav-ul">
+        <li><a href="">Cuteness</a></li>
+        <li><a href="">Animal</a></li>
+        <li><a href="">Sports</a></li>
+        <li><a href="">Vehicle</a></li>
+        <li><a href="">Person</a></li>
+        <li><a href="">Season</a></li>
+        <li><a href="">Toy</a></li>
+        <li><a href="">Buiding</a></li>
+      </ul>
+    </div>
+    <div class="list">
+      
+        <div class="list-ul-li">
+          <a href="./index-pattern01.html"><img src="./img/pattern01_工作區域 1.png" alt=""></a>
+          <div class="list-ul-li-text">
+            <div class="list-ul-li-p">
+            <p>愛心蛋黃</p>
+            <p>$ 521</p>
            </div>
-           <div class="login-wrapper">
-             <div class="top-tips">
-               <span>免費註冊你的帳號</span>
-             </div>
-
-             <div class="other-login">
-               <div class="other-login01">
-                 <img src="./img/facebook_icon.png" alt="fb登入" />
-                 <a href="https://zh-tw.facebook.com" class="fb">以Facebook帳號註冊</a>
-               </div>
-
-               <div class="other-login02">
-                <img src="./img/gmail_icon.png" alt="gmail登入" />
-                <a href="https://www.google.com/mail" class="gmail">以Gmail帳號註冊</a>
-               </div>
-              </div>
-          <div class="line-wrapper">
-            <span class="line"></span>
-            <span class="txt">or</span>
-            <span class="line"></span>
-          </div>
-
-          <div class="login-form">
-                <div class="text-tips">
-                <span>以電子郵件地址註冊</span>
-                </div>
-                <div class="user-form">
-                  <input type="text" placeholder="姓名"/>
-                  <input type="text" placeholder="電子郵件地址"/>
-                  <input type="password" placeholder="建立密碼"/>
-                </div>
-            <div class="address-content">
-                <div class="address"><span>居住地址</span></div>
-                <div class="option">
-                   <select id="city">
-                   <option>請選擇縣市</option>
-                   <option value="taipei">臺北市</option>
-                   <option value="keelong">基隆市</option>
-                   <option value="newtaipei">新北市</option>
-                   <option value="taoyuan">桃園市</option>
-                   <option value="hsinchu01">新竹市</option>
-                   <option value="hsinchu02">新竹縣</option>
-                   <option value="miaoli">苗栗縣</option>
-                   <option value="taipei">臺中市</option>
-                   <option value="taipei">彰化縣</option>
-                   <option value="taipei">南投縣</option>
-                   <option value="taipei">雲林縣</option>
-                   <option value="taipei">嘉義市</option>
-                   <option value="taipei">嘉義縣</option>
-                   <option value="taipei">臺南市</option>
-                   <option value="taipei">高雄市</option>
-                   <option value="xingchu">屏東縣</option>
-                   <option value="xingchu">臺東縣</option>
-                   <option value="xingchu">花蓮縣</option>
-                   <option value="yilan">宜蘭縣</option>
-                   <option value="jimen">澎湖縣</option>
-                   <option value="ilen">金門縣</option>
-                   <option value="lienchiang">連江縣</option>
-                   </select>
-                 <select id="township">
-                   <option>請選擇鄉鎮市區</option>
-                 </select>
-                </div>
-            </div>
-            <div class="btn-content">
-                <div class="btn-button">
-                    <button class="btn01" onclick="a()">註冊</button>
-                    </div>
-                <div class="login-account">
-                    <p>已有帳戶嗎？</p><a href="" class="loginaccount">登入</a>
-                </div>
-            </div> 
-         
-            </div>
-          </div>
-       
+           <div class="list-ul-li-a">
+            <a href="./index-pattern01.html"><i class="fa-solid fa-cart-plus"></i></a>
+           </div>
+        </div>
+        </div>
+        <div class="list-ul-li">
+          <a href="./index-pattern02.html"><img src="./img/pattern01_工作區域 1 複本.png" alt=""></a>
+          <div class="list-ul-li-text">
+            <div class="list-ul-li-p">
+            <p>有雲</p>
+            <p>$ 321</p>
+           </div>
+           <div class="list-ul-li-a">
+            <a href="./index-pattern02.html"><i class="fa-solid fa-cart-plus"></i></a>
+           </div>
+        </div>
+        </div>
+        <div class="list-ul-li">
+          <a href="./index-pattern03.html"><img src="./img/pattern01_工作區域 1 複本 2.png" alt=""></a>
+          <div class="list-ul-li-text">
+            <div class="list-ul-li-p">
+            <p>渣渣蛋黃</p>
+            <p>$ 490</p>
+           </div>
+           <div class="list-ul-li-a">
+            <a href="./index-pattern03.html"><i class="fa-solid fa-cart-plus"></i></a>
+           </div>
+        </div>
+        </div>
+        <div class="list-ul-li">
+          <a href="./index-pattern04.html"><img src="./img/pattern01_工作區域 1 複本 3.png" alt=""></a>
+          <div class="list-ul-li-text">
+            <div class="list-ul-li-p">
+            <p>黃色液體</p>
+            <p>$ 399</p>
+           </div>
+           <div class="list-ul-li-a">
+            <a href="./index-pattern04.html"><i class="fa-solid fa-cart-plus"></i></a>
+           </div>
+        </div>
+        </div>
+        <div class="list-ul-li">
+          <a href="./index-pattern05.html"><img src="./img/pattern01_工作區域 1 複本 4.png" alt=""></a>
+          <div class="list-ul-li-text">
+            <div class="list-ul-li-p">
+            <p>藍色的雲</p>
+            <p>$ 250</p>
+           </div>
+           <div class="list-ul-li-a">
+            <a href="./index-pattern05.html"><i class="fa-solid fa-cart-plus"></i></a>
+           </div>
+        </div>
+        </div>
+        <div class="list-ul-li">
+          <a href="./index-pattern06.html"><img src="./img/pattern01_工作區域 1 複本 5.png" alt=""></a>
+          <div class="list-ul-li-text">
+            <div class="list-ul-li-p">
+            <p>旋轉花花</p>
+            <p>$ 720</p>
+           </div>
+           <div class="list-ul-li-a">
+            <a href="./index-pattern06.html"><i class="fa-solid fa-cart-plus"></i></a>
+           </div>
+        </div>
+        </div>
+        <div class="list-ul-li">
+          <a href="./index-pattern07.html"><img src="./img/pattern01_工作區域 1 複本 6.png" alt=""></a>
+          <div class="list-ul-li-text">
+            <div class="list-ul-li-p">
+            <p>炸炸蛋黃</p>
+            <p>$ 490</p>
+           </div>
+           <div class="list-ul-li-a">
+            <a href="./index-pattern07.html"><i class="fa-solid fa-cart-plus"></i></a>
+           </div>
+        </div>
+        </div>
+        <div class="list-ul-li">
+          <a href="./index-pattern08.html"><img src="./img/pattern01_工作區域 1 複本 7.png" alt=""></a>
+          <div class="list-ul-li-text">
+            <div class="list-ul-li-p">
+            <p>小山叢</p>
+            <p>$ 490</p>
+           </div>
+           <div class="list-ul-li-a">
+            <a href="./index-pattern08.html"><i class="fa-solid fa-cart-plus"></i></a>
+           </div>
+        </div>
+        </div>
+        <div class="list-ul-li">
+          <a href="./index-pattern09.html"><img src="./img/pattern01_工作區域 1 複本 8.png" alt=""></a>
+          <div class="list-ul-li-text">
+            <div class="list-ul-li-p">
+            <p>看路啊</p>
+            <p>$ 490</p>
+           </div>
+           <div class="list-ul-li-a">
+            <a href="./index-pattern09.html"><i class="fa-solid fa-cart-plus"></i></a>
+           </div>
+        </div>
+        </div>
+        <div class="list-ul-li">
+          <a href="./index-pattern10.html"><img src="./img/pattern01_工作區域 1 複本 9.png" alt=""></a>
+          <div class="list-ul-li-text">
+            <div class="list-ul-li-p">
+            <p>送信嗎</p>
+            <p>$ 350</p>
+           </div>
+           <div class="list-ul-li-a">
+            <a href="./index-pattern10.html"><i class="fa-solid fa-cart-plus"></i></a>
+           </div>
+        </div>
+        </div>
+      
     </div>
+    <div class="footer">
+      <a href=""><i class="fa-brands fa-instagram"></i></a>
+      <a href=""><i class="fa-brands fa-facebook"></i></a>
+      <a href=""><i class="fa-brands fa-twitter"></i></a>
+      <p class="footer-p">©2023 www.lchuiii.com</p>
     
+    </div>
 
-<script src="./js/jquery-3.6.1.min.js"></script>   
-<script src="./js/main.js"></script>
-
-
-</body>
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/loginpage.js"></script>
+  </body>
 </html>

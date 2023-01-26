@@ -1,0 +1,390 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+body {
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  background-color: rgb(245, 245, 245);
+}
+
+.hd-left {
+  float: left;
+}
+.left-search {
+  float: left;
+}
+.left-img {
+  float: left;
+}
+.hd-left img {
+  height: 40px;
+  margin: 10px 15px 10px 30px;
+  display: block;
+  cursor: pointer;
+}
+
+.left-search {
+  margin: 14.625px auto;
+}
+
+.search-input {
+  height: 22px;
+  border-width: 0 0 1px 0;
+  background-color: rgb(245, 245, 245);
+}
+.search-button {
+  height: 30px;
+  width: 30px;
+  border: transparent;
+  background-color: rgb(245, 245, 245);
+}
+.hd-left i {
+  font-size: 20px;
+  color: #929292;
+  cursor: pointer;
+}
+.hd-right {
+  margin: 18.75px 30px 18.75px 0;
+  float: right;
+}
+
+.hd-right i {
+  font-size: 16px;
+  margin-bottom: 0;
+  margin-right: 9px;
+}
+.hd-right > div {
+  float: right;
+}
+.hd-cart {
+  margin: 0 20px 0 0;
+}
+.hd-right a {
+  text-decoration: none;
+  color: #929292;
+}
+.hd-right a:hover {
+  text-decoration: none;
+  color: #505050;
+}
+.hd-left i:hover {
+  color: #505050;
+}
+
+.header-logo {
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.header-logo img {
+  height: 180px;
+  display: block;
+}
+.nav {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+}
+.nav ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+.nav li {
+  float: left;
+}
+.nav li a {
+  padding: 0 13px;
+  font-weight: 700;
+  color: #000000;
+}
+.nav li a:hover {
+  background-color: rgb(246, 246, 246);
+  color: #929292;
+}
+.nav-ul {
+  width: 700px;
+  height: 30px;
+  padding: 0;
+  display: flex;
+}
+
+.list {
+  width: 1120px;
+  height: 1000px;
+  padding: 0 80px;
+}
+.list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list-ul-li {
+  width: 180px;
+  height: 230px;
+  margin: 40px 50px;
+  float: left;
+}
+.list-ul-li img {
+  width: 180px;
+  height: 180px;
+}
+
+.list-ul-li-p {
+  width: 100px;
+  margin: 0;
+  margin: 0 46.75px 0 0;
+  font-weight: 350;
+  letter-spacing: 1px;
+}
+
+.list-ul-li-a {
+  width: 33.75px;
+  height: 50px;
+  bottom: 0;
+}
+
+.list-ul-li-text {
+  width: 180px;
+  display: flex;
+}
+
+.list-ul-li-a i {
+  font-size: 30px;
+  margin-top: 20px;
+  color: #505050;
+}
+
+.list-ul-li-a i:hover {
+  color: #929292;
+}
+.list-ul-li img {
+  display: block;
+}
+
+.footer {
+  width: 100%-200px;
+  height: 100px;
+  background-color: #b4b4b4;
+  opacity: 80%;
+  font-size: 20px;
+  color: #505050;
+  padding: 50px 100px;
+  margin: 0 0;
+}
+.footer i {
+  font-size: 30px;
+  color: #505050;
+  float: left;
+}
+.fa-brands {
+  margin: 0 20px;
+}
+.footer-p {
+  float: right;
+}
+.login {
+  width: 900px;
+  height: 800px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  border: 1px #000000 solid;
+  border-radius: 30px;
+}
+
+.top-tips {
+  width: 100%;
+  height: 70px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 70px;
+  font-family: Heiti TC;
+  margin: 15px 0 25px 0;
+}
+.other-login {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  line-height: 100px;
+}
+.fb {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.gmail {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.other-login01 {
+  width: 260px;
+  height: 50px;
+  border-radius: 100px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 15px;
+  color: #ececec;
+  background-color: #3b5999;
+  cursor: pointer;
+  margin: auto 30px;
+  cursor: pointer;
+}
+.other-login01:hover {
+  background-color: #5f80d4;
+  height: 55px;
+}
+.other-login02:hover {
+  background-color: #ebebeb;
+  height: 55px;
+  border: 1px #d5d5d5 solid;
+}
+.other-login01 img {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  padding: 5px;
+}
+.other-login02 {
+  width: 260px;
+  height: 50px;
+  border-radius: 100px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 15px;
+  color: #000000;
+  background-color: #ffffff;
+  cursor: pointer;
+  border: 1px #000000 solid;
+  margin: auto 30px;
+  cursor: pointer;
+}
+.other-login02 img {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  padding: 5px;
+}
+.line-wrapper {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+.line-wrapper .line {
+  display: inline-block;
+  width: 300px;
+  border-top: 2px solid #e2e2e2;
+}
+.line-wrapper .txt {
+  color: #c7c7c7;
+  vertical-align: middle;
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.login-form {
+  width: 100%;
+  height: 500px;
+}
+.text-tips {
+  width: 100%;
+  height: 70px;
+
+  line-height: 70px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.user-form input {
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid;
+  margin: 10px auto;
+}
+.user-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+
+  justify-content: space-aroundr;
+}
+.user-form input::placeholder {
+  padding-left: 1em;
+}
+.address-content {
+  width: 400px;
+  height: 80px;
+
+  margin: 0 auto;
+}
+
+select {
+  border: 1px solid #c9c9c9;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  height: 28px;
+  line-height: 28px;
+  padding: 4px 16px;
+  font-size: 14px;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+}
+.address {
+  padding: 0 0 10px 0;
+}
+
+.btn01 {
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 30px;
+  border: solid;
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn button {
+  margin: 0 auto;
+}
+.btn01:hover {
+  background-color: #b6b6b6;
+  height: 55px;
+}
+.btn-content {
+  width: 400px;
+  height: 150px;
+  margin: 20px auto;
+}
+.login-account {
+  margin: 10px auto;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.loginaccount:hover {
+  color: #c2c2c2;
+}
+.btn-button {
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+}
